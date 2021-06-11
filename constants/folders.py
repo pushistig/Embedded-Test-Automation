@@ -4,6 +4,8 @@ TEST_UB_TXT1 = "test_ub.txt"
 TEST_D_TXT1 = "D:/test.txt"
 FILENAME_TXT = "filename.txt"
 TEST_PDF_PC = "D:/test.pdf"
+FOLDER_HELLO5 = "D:/!Work/Success Factor/2021/!Python/Embedded Test Automation/tests/hello_5"
+
 
 PATH_TEST_PDF_ON_VM = "/home/dima/Рабочий стол/first_folder/test.pdf"
 TEST_UB_TXT1_ON_VM = "/home/dima/Рабочий стол/first_folder/test_ub.txt"

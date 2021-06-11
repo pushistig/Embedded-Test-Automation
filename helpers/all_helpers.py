@@ -2,7 +2,7 @@ import paramiko
 from constants.credential import *
 
 
-class AllHelper:
+class AllHelpers:
 
     def connect_to_vm(self):
         ssh = paramiko.SSHClient()
@@ -15,6 +15,7 @@ class AllHelper:
         handle = open("test.txt", "w")
         # handle.write("This is SPARTA!")   #-----------Example 1
         handle.writelines(["\nThis is", "\nis", "\nSPARTA!"])
+        handle.close()
 
     def handle_read(self):
         handle = open("test.txt", "r")
